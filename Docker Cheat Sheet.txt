@@ -1,0 +1,37 @@
+Docker Cheat Sheet
+
+Online documentation:
+https://docs.docker.com/
+
+Find your version:
+docker --version
+docker-compose --version
+
+Get help:
+docker --help
+
+See your docker images:
+docker images
+
+Remove docker images
+docker rmi (docker id, first two characters)
+docker rmi IMAGE ID --force ( if you need to force removal)
+
+
+Get details about a container:
+docker inspect (docker id, first two characters)
+
+See all dockers running:
+docker ps -a
+
+See docker ip address:
+docker-machine ip
+
+Stop a docker container:
+docker-compose stop
+Ctrl+c
+
+Start a docker container:
+docker-compose up
+
+

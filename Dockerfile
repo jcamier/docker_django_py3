@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:3.5-slim
 MAINTAINER Jack Camier <jcamier@gmail.com>
 ENV PYTHONUNBUFFERED 1
 RUN apt-get update \

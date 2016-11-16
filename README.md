@@ -1,4 +1,4 @@
-# docker_django, A dockerized django image with Debian/Jessie linux, bootstrap and postgresql, Python 2.7 for eventual AWS production.
+# docker_django, A dockerized django image with Debian/Jessie linux, bootstrap and postgresql, Python 3.5
 # You need docker toolbox to run. https://www.docker.com/products/docker-toolbox
 # Open Docker Quickstart Terminal and make a directory on your file system for the django app. For example, $ mkdir djangoapp && cd djangoapp
 # clone repository to local machine, $ git clone https://github.com/jcamier/docker_django.git
